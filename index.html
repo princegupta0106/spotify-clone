@@ -1,0 +1,625 @@
+<!-- include the node module inside the my-project folder to run vite and thus tailwind properly if it's not there -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="tailwindcss.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify-clone-tailwind</title>
+</head>
+
+
+<body class="bg-black text-white select-none ">
+  <main class="bg-black flex gap-2 m-2 h-[87vh] mb-0">
+    <div class="left w-[25%] flex flex-col gap-2 h-[87vh] rounded">
+      <div class="top bg-spotify-black rounded flex flex-col justify-evenly " style="height:15vh;">
+        <div class="home flex gap-2 align-middle ml-6">
+          <img src="src/assets/home.svg" alt="home icon" class="w-5 invert  " />
+          <p class="font-bold ">Home</p>
+        </div>
+        <div class="search row-span-1 flex gap-2  align-middle ml-6 ">
+          <img src="src/assets/search.svg" alt="home icon" class="w-6 " />
+          <p class="search font-bold text-spotify-white">Search</p>
+        </div>
+      </div>
+
+      <div class="bottom bg-spotify-black flex-grow flex flex-col rounded">
+
+        <div class="your-library flex justify-between ">
+          <div class="library flex gap-4 p-4 ml-2 p">
+            <img src="src/assets/hambar.svg" alt="home icon" class="w-6 invert " />
+            <p class="text-spotify-white font-bold">Your Library</p>
+          </div>
+          <div class="plus-icons flex gap-6 p-4 mr-3">
+            <img src="src/assets/plus.svg" alt="+" class="w-4" />
+            <img src="src/assets/left-arrow.svg" alt="+" class="w-4 invert" />
+          </div>
+        </div>
+
+        <div class="test flex-grow overflow-hidden flex-col gap-2">
+
+          <div class="tabs flex  gap-2 m-4 text-sm">
+            
+            <div class="tab  flex justify-center items-center pl-3 pr-3 pt-1 pb-2 rounded-full font-medium bg-white bg-opacity-10 hover:bg-opacity-20 text-white">Playlists</div>
+            <div class="tab  flex justify-center items-center pl-3 pr-3 pt-1 pb-2 rounded-full font-medium  bg-white bg-opacity-10 hover:bg-opacity-20 text-white">Artists</div>
+          </div>
+
+          <div class="recents flex justify-between gap-6 p-4 pt-0 ml-2 pr-2  ">
+            <img src="src/assets/search.svg" alt="search" class="w-4 invert" />
+            <div class="recent-block flex gap-2">
+              <p class="text-spotify-white font-semibold">Recent</p>
+              <img src="src/assets/hamburger.svg" class="invert w-4" />
+            </div>
+          </div>
+        
+
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+          <div class="playlists ml-4">
+            <div class="p1 flex gap-4">
+              <img src="src/assets/liked-songs-64.png" class="w-12 rounded" />
+              <div class="p1-txt">
+                <h4 class="text-l">Liked Songs</h4>
+                <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+              </div>
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="center bg-spotify-black w-[55%] h-[87vh] rounded overflow-hidden hover:overflow-y-scroll z-0   ">
+      <div class="trial overflow-hidden ">
+        <div class="transition-box  text-sm p-4 flex flex-col justify-around gap-4 overflow-hidden relative ">
+          <div class="sticky top-0 ">
+            <div class="navbar h-[7.5vh] flex justify-between ">
+              <div class="navigation-buttons flex items-center gap-2">
+                <div class="back-button p-2 rounded-full bg-black  ">
+                  <img src="src/assets/left-symbol.svg" class="invert w-4" />
+                </div>
+                <div class="next-button p-2 rounded-full bg-black ">
+                  <img src="src/assets/right-symbol.svg" class="invert w-4" />
+                </div>
+              </div>
+              <div class="nav-options flex items-center gap-2 ">
+                <button class="mr-4 "><p class=" rounded-full bg-white pl-2 pr-2 p-1 text-black font-bold ">Explore Premium</p></button>
+                <button class="flex gap-2 items-center h-7 mr-2 rounded-full bg-black pl-4 pr-4  text-white font-bold">
+                  <img src="src/assets/down-icon.svg" class="invert w-4 " />
+                  <p class="">Install App</p>
+                </button>
+                <button class=" flex justify-center items-center h-7 w-7 bg-black rounded-full">
+                  <img src="src/assets/bell.svg" class="invert w-4" />
+                </button>
+                <div class="flex items-center w-8 h-8 rounded-full bg-black justify-center">
+                  <div class="flex items-center w-6 h-6 bg-orange-900 rounded-full justify-center" >
+                    <p class=" text-white font-bold">P</p>
+                  </div>
+                </div>
+  
+  
+  
+              </div>
+            </div>
+            <div class="tabs flex  gap-2">
+              <div class="tab  flex justify-center items-center pl-3 pr-3 pt-1 pb-2 rounded-full font-medium bg-white text-black">All </div>
+              <div class="tab  flex justify-center items-center pl-3 pr-3 pt-1 pb-2 rounded-full font-medium bg-white bg-opacity-10 hover:bg-opacity-20 text-white">Music</div>
+              <div class="tab  flex justify-center items-center pl-3 pr-3 pt-1 pb-2 rounded-full font-medium  bg-white bg-opacity-10 hover:bg-opacity-20 text-white">Podcasts</div>
+            </div>
+          </div>
+
+          <div class="grid  grid-cols-2 grid-rows-4 3xl:grid-cols-4 3xl:grid-rows-2 gap-2  ">
+            
+            
+            <div class=" t1 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out " >
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+
+            <div class="t2 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+            <div class=" t3 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+            <div class=" t4 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+            <div class=" t5 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+            <div class="t6 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+            <div class="t7 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+              <img src="src/assets/spotify-play.svg" class=" w-4" />
+              </span>
+            </div>
+            <div class="t8 col-span-1 row-span-1 rounded group bg-white  bg-opacity-[8%] hover:bg-opacity-15 overflow-hidden  flex items-center justify-between transition duration-200 ease-in-out">
+            
+              <div class= "flex items-center gap-3">
+                <img src="src/assets/liked-songs-64.png" class="w-12 " />
+                <P class="text-white font-semibold opacity-100 ">Liked Songs</P>
+              </div>
+              <span class=" spotify-paly-button items-center justify-center rounded-full mr-2 opacity-0 group-hover:opacity-100 bg-spotify-green p-[.4rem] shadow-spotify-black shadow-xl transition-opacity duration-200 ease-in-out">
+                <img src="src/assets/spotify-play.svg" class=" w-4" />
+                </span>
+            </div>
+            
+          </div>
+
+          
+          
+
+        </div>
+      </div>
+
+      <div class="mt-10 m-4 flex flex-col">
+        <div class="head flex justify-between ">
+          <h1 class="font-bold text-2xl">Made for you </h1>
+          <p class="font-bold text-sm text-spotify-white">Show all</p>
+        </div>
+        <div class=" grid grid-cols-4">
+          <div class="cards group group flex flex-wrap justify-around ">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-300 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden group">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="mt-10 m-4 flex flex-col">
+        <div class="head flex justify-between ">
+          <h1 class="font-bold text-2xl">Made for you </h1>
+          <p class="font-bold text-sm text-spotify-white">Show all</p>
+        </div>
+        <div class=" grid grid-cols-4">
+          <div class="cards group flex flex-wrap justify-around ">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="mt-10 m-4 flex flex-col">
+        <div class="head flex justify-between ">
+          <h1 class="font-bold text-2xl">Made for you </h1>
+          <p class="font-bold text-sm text-spotify-white">Show all</p>
+        </div>
+        <div class=" grid grid-cols-4">
+          <div class="cards group flex flex-wrap justify-around ">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="mt-10 m-4 flex flex-col">
+        <div class="head flex justify-between ">
+          <h1 class="font-bold text-2xl">Made for you </h1>
+          <p class="font-bold text-sm text-spotify-white">Show all</p>
+        </div>
+        <div class=" grid grid-cols-4">
+          <div class="cards group flex flex-wrap justify-around ">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+          <div class="cards group flex flex-wrap justify-around">
+            <div class="card  flex flex-col rounded-xl bg-white bg-opacity-0 hover:bg-opacity-[4%] hover:cursor-pointer">
+              <div class="image-wrapper relative w-full p-3 overflow-hidden">
+                <img src="src/assets/liked-songs-64.png" alt="card-image" class="w-full rounded-lg">
+                <span class=" play-card scale-[1.2] hover:scale-[1.3] spotify-paly-button absolute bottom-7 right-7 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 bg-spotify-green hover:bg-[#1fe063] p-[.4rem] transition-opacity duration-500 ease-in-out w-7"  >
+                    <img src="src/assets/spotify-play.svg" class="w-4" />
+                </span>
+              </div>
+            
+              <h2 class="font-semibold p-3 pt-0 pb-1">Daily Mix 1</h2>
+              <p class="text-spotify-white text-sm font-medium p-3 pt-0">Pritam, Atif Aslam, Amrita Singh and more</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+
+    </div>
+
+
+    <div class="right bg-spotify-black w-[20%] h-[87vh] rounded flex flex-col ">
+
+      <div class="h-[7.5%] flex m-4 items-center justify-between">
+        <h3 class="font-bold text-lg">Iqlipse Nova</h3>
+        <div class="icons flex gap-6 items-center ">
+          <p class="pb-2">. . .</p>
+          <img src="src/assets/cross.svg" class="invert w-4" />
+        </div>
+      </div>
+      
+      <div  class="flex-grow overflow-hidden hover:overflow-y-scroll p-4 w-full ">
+        <img src="src/assets/liked-songs-64.png" class="w-full rounded shadow-xl" />
+        <div class="flex justify-between mt-3">
+          <div class="">
+            <h3 class="font-bold text-2xl">Dil Besabar</h3>
+            <p>Iqlipse Nova, Aditya Verma</p>
+          </div>
+          <img src="src/assets/add.svg" class="w-4"/>
+        </div>
+        <div class="mt-6 shadow-xl">
+          <div class="div relative">
+            <img src="src/assets/liked-songs-64.png" class="w-full rounded shadow-xl" />
+            <p class="top-5 left-5 absolute  font-semibold text-lg">About the artist</p>
+
+          </div>
+          <div class="div"></div>
+        </div>
+
+        
+
+
+      </div>
+    </div>
+
+  </main>
+
+  <script type="module" src="src/main.jsx"></script>
+  <script src="script.js"></script>
+</body>
+<footer class="m-2 flex" >
+  <div class="song w-[25%]">
+    
+      <div class="p1 flex gap-4 ">
+        <img src="src/assets/liked-songs-64.png" class="h-full rounded-sm" />
+        <div class="p1-txt flex flex-col justify-center">
+          <h4 class="text-l">Liked Songs</h4>
+          <p class="text-sm text-spotify-white">playlist: 181 songs</p>
+        </div>
+        <img src="src/assets/add.svg" class="invert w-4" />
+      
+    </div>
+  </div>
+  <div class=" audio-player flex flex-col content-center  items-center w-[55%]">
+    <div class="icons flex gap-10 m-auto justify-center">
+      <img src="src/assets/previous.svg" class="invert w-4" />
+      <div class="w-7 h-7 rounded-full bg-white flex">
+        <img src="src/assets/spotify-play.svg" class=" w-4 m-auto " />
+      </div>
+      <img src="src/assets/next.svg" class="invert w-4" />
+    </div>
+    <input  type="range" name="range" id="progressBar" min="0" max="0" class="w-[70%] mb-2"> </input>
+  </div>
+  <div class="tools w-[20%] flex  justify-evenly">
+    
+    <img src="src/assets/play-button.svg" id="play-button" class="invert w-4" />
+    <img src="src/assets/mic.svg" class="invert w-4" />
+    <img src="src/assets/topbar.svg" class="invert w-4" />
+    <img src="src/assets/devices-icon.svg" class="invert w-4" />
+    <img src="src/assets/volume-button.svg" class="invert w-4" />
+    <input  type="range" name="range" id="progressBar" min="0" max="0" class="w-[30%]  m-auto " > </input>
+    
+  </div>
+ 
+</footer>
+
+</html>
+
